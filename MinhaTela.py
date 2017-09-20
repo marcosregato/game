@@ -122,12 +122,14 @@ class MinhaTela:
                                 '''
 
                                 if self.tempo_de_escolha(tempoMaximo) == tempo_esgotado or pygame.key == K_KP_ENTER:
-                                    self.tela.blit(exu_mirim,(c,l))
-                                    pygame.display.update()
+                                    #self.tela.blit(exu_mirim,(c,l))
+                                    #pygame.display.update()
                                     #meuTempo.tick(2)
+
                                     sleep(2)
                                     cenario.chamarCenario('exu_mirim')
-                                    controler.controlerPersonagen(MinhaTela.x, MinhaTela.y, 'exu_mirim_lutador.png')
+                                    pygame.display.update()
+                                    controler.controlerPersonagen(MinhaTela.x, MinhaTela.y, '../lutador/exu_mirim_lutador.png')
 
 
                             elif 435 <= curso[0] <= 535 and 255 <= curso[1] <= 405:
@@ -144,7 +146,7 @@ class MinhaTela:
                                     pygame.display.update()
                                     sleep(2)
                                     cenario.chamarCenario('lucifer')
-                                    controler.controlerPersonagen(MinhaTela.x, MinhaTela.y, 'lucifer_lutador.png')
+                                    controler.controlerPersonagen(MinhaTela.x, MinhaTela.y, 'lutador/lucifer_lutador.png')
 
                             elif 550 <= curso[0] <= 650 and 285 <= curso[1] <= 405:
                                 maria_7_cat = pygame.image.load(pathDiretorioPersonagem+"maria_7_cat.png").convert()
