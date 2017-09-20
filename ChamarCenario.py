@@ -13,7 +13,7 @@ class ChamarCenario():
     y = 600
 
     def chamarCenario(sef,personagem):
-       controler = Controler()
+       #controler = Controler()
 
        '''
        ERRO
