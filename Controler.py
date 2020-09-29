@@ -36,8 +36,8 @@ class Controler():
                     if event.type == pygame.KEYUP and (event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT):
                         movi_x = 0
                 #x += tela_x
-        except Exception, e:
-            print e
+        except Exception as e:
+            print(e)
 
 if __name__=='__name__':
     c = Controler()

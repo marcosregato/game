@@ -1,6 +1,6 @@
 from os import system
 from time import sleep
-import  pygame
+import pygame
 
 def main():
     x = 120
