@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# documento de estudo sobre construção do jogo
+livro/
+
 # C extensions
 *.so
 
