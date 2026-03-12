@@ -80,7 +80,7 @@ class MinhaTela:
         cenario.set_tela(self.tela)
         controler = Controler()
         perso_c,perso_l = 0,20
-
+# teste
         try:
             pygame.display.set_caption('JOGO')
             temp = 0
